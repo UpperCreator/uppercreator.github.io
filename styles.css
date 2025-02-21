@@ -1,0 +1,53 @@
+html *
+{
+
+   color: #000 !important;
+   font-family: Arial !important;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 400px) {
+    body {
+        font-size: 12px;
+    }
+}
+
+
+@media screen and (min-width: 401px) and (max-width: 600px) {
+    body {
+        font-size: 14px;
+    }
+}
+
+
+@media screen and (min-width: 601px) and (max-width: 768px) {
+    body {
+        font-size: 16px;
+    }
+}
+
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    body {
+        font-size: 18px;
+    }
+}
+
+
+@media screen and (min-width: 1025px) and (max-width: 1440px) {
+    body {
+        font-size: 20px;
+    }
+}
+
+
+@media screen and (min-width: 1441px) {
+    body {
+        font-size: 22px;
+    }
+}
